@@ -27,7 +27,7 @@ public class SortingMethod {
         return j;
     }
 
-    static void quickSort(int[] arrayCopy, int left, int right) {
+    public static void quickSort(int[] arrayCopy, int left, int right) {
         if (left >= right)
             return;
         int key = partition(arrayCopy, left, right);

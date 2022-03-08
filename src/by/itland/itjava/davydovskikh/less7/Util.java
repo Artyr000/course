@@ -14,4 +14,8 @@ public class Util {
             System.out.println(item + " ");
         }
     }
+
+    public static boolean checkSort(int[] array) {
+        return true;
+    }
 }

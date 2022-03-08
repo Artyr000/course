@@ -36,7 +36,7 @@ public class AtmMachine {
         return balance;
     }
 
-    boolean getMoney(int money) {
+    public boolean getMoney(int money) {
         if (money > balance) {
             return false;
         } else {
@@ -44,7 +44,7 @@ public class AtmMachine {
         }
     }
 
-    void infoCash(int money) {
+    public void infoCash(int money) {
         int countHundred = 0;
         int countFifty = 0;
         int countTwenty = 0;
@@ -75,14 +75,14 @@ public class AtmMachine {
         }
     }
 
-    void addMoney(int hundred, int fifty, int twenty) {
+    public void addMoney(int hundred, int fifty, int twenty) {
         this.hundred += hundred;
         this.fifty += fifty;
         this.twenty += twenty;
         recalculationBalance();
     }
 
-    void infoAtm() {
+    public void infoAtm() {
         System.out.println("В банкомате " + getBalance() + " денег");
         System.out.printf("100: %d 50: %d 20: %d \n", this.hundred, this.fifty, this.twenty);
     }

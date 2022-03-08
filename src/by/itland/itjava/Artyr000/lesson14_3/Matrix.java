@@ -1,4 +1,4 @@
-package by.itland.itjava.Artyr000.lesson14;
+package by.itland.itjava.Artyr000.lesson14_3;
 
 public class Matrix extends Var {
     private  double[][] matr;
@@ -43,7 +43,7 @@ public class Matrix extends Var {
                             arr[i][j] = this.matr[i][j] + operand2.matr[i][j];
                         }
                     }
-                    return new  Matrix(arr);
+                    return new Matrix(arr);
                 }
             }
         }
@@ -75,7 +75,7 @@ public class Matrix extends Var {
                             arr[i][j] = this.matr[i][j] - operand2.matr[i][j];
                         }
                     }
-                    return new  Matrix(arr);
+                    return new Matrix(arr);
                 }
             }
         }
@@ -109,7 +109,7 @@ public class Matrix extends Var {
 
                         }
                     }
-                    return new  Matrix(arr);
+                    return new Matrix(arr);
                 }
             }
 

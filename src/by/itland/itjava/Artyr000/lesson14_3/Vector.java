@@ -1,6 +1,4 @@
-package by.itland.itjava.Artyr000.lesson14;
-
-import java.util.prefs.PreferenceChangeListener;
+package by.itland.itjava.Artyr000.lesson14_3;
 
 public class Vector extends Var {
     private double[] value;
